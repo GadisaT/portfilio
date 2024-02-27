@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './myIntro.css';
 import gadisa from '../../img/gado.jpg'
-import gadis from '../../img/gad.jpg'
+import gadis from '../../img/gad.png'
 // import btnImg from '../../img/hireme.png'
 // import { Link } from 'react-scroll';
 
