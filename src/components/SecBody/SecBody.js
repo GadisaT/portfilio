@@ -9,35 +9,36 @@ import port5 from '../../img/port5.jpg'
 // import port6 from '../../img/port6.jpg'
 // import port7 from '../../img/port7.jpg'
 
-const  SecBody=()=>{
-    const [showImage, setShowImage] = useState(false);
-
-    
-    return(
-        <section id="secBody">
-        <h2 className="secBodyTitle">MY Porfile</h2>
-        <span className="secBodyDescr"> I have the following certificate from recognize university as both back-end and front-end developer and etc</span>
+const SecBody = () => {
+    const [selectedImage, setSelectedImage] = useState(null);
+  
+    const handleClick = (image) => {
+      setSelectedImage(image);
+    };
+  
+    return (
+      <section id="secBody">
+        <h2 className="secBodyTitle">MY Profile</h2>
+        <span className="secBodyDescr">I have the following certificates from recognized universities as both a back-end and front-end developer, etc.</span>
         <div className="secBodyImgs">
-            <img src={port} alt="portfolio" className="secBodyImg" onClick={() => setShowImage(true)}/>
-            <img src={port1} alt="portfolio" className="secBodyImg" onClick={() => setShowImage(true)}/>
-            <img src={port2} alt="portfolio" className="secBodyImg" onClick={() => setShowImage(true)}/>
-            <img src={port3} alt="portfolio" className="secBodyImg" onClick={() => setShowImage(true)}/>
-            <img src={port4} alt="portfolio" className="secBodyImg" onClick={() => setShowImage(true)}/>
-            <img src={port5} alt="portfolio" className="secBodyImg" onClick={() => setShowImage(true)}/>
-            {/* <img src={port6} alt="portfolio" className="secBodyImg"/>
-            <img src={port7} alt="portfolio" className="secBodyImg"/> */}
-            {showImage && (
-                <div className="fullscreenImageContainer">
-                    <img src={port} alt="portfolio" className="fullscreenImage" />
-                    <button className="closeButton" onClick={() => setShowImage(false)}>&#10006;</button>
-                </div>
-                )}
+          <img src={port} alt="portfolio" className="secBodyImg" onClick={() => handleClick(port)} />
+          <img src={port1} alt="portfolio" className="secBodyImg" onClick={() => handleClick(port1)} />
+          <img src={port2} alt="portfolio" className="secBodyImg" onClick={() => handleClick(port2)} />
+          <img src={port3} alt="portfolio" className="secBodyImg" onClick={() => handleClick(port3)} />
+          <img src={port4} alt="portfolio" className="secBodyImg" onClick={() => handleClick(port4)} />
+          <img src={port5} alt="portfolio" className="secBodyImg" onClick={() => handleClick(port5)} />
         </div>
-        
-        <button className="secBodyBtn">See More</button>
-        </section>
-    )
-}
-
-
-export default SecBody;
+  
+        {selectedImage && (
+          <div className="fullscreenImageContainer">
+            <img src={selectedImage} alt="portfolio" className="fullscreenImage" />
+            <button className="closeButton" onClick={() => setSelectedImage(null)}>&#10006;</button>
+          </div>
+        )}
+  
+        {/* <button className="secBodyBtn">See More</button> */}
+      </section>
+    );
+  };
+  
+  export default SecBody;

@@ -32,7 +32,7 @@ const Contact =()=>{
     return(
         <section id="contactPage">
             <div id="contact">
-                <form className="contactForm" ref={form} onSubmit={sendEmail} >
+                <form className="contactForm" ref={form} >
                 <h1>Contact me</h1>
                 {/* <span>Please fill out the form below to discuss any work opportunity with me and if you have any questions leave message in the box bellows and let me know what you want. Thank You!</span>
                     <input type="text" className="name" placeholder="enter full name..." name="your_name" required/>

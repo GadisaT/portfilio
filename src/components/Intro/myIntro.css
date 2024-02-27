@@ -56,6 +56,24 @@
 .introName{
     color: yellow;
 }
+.introName {
+    display: inline-block;
+    animation: typing 3s infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+  }
 
 .introPara {
     font-size: medium;
