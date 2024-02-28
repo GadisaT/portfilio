@@ -32,7 +32,7 @@ const Contact =()=>{
     return(
         <section id="contactPage">
             <div id="contact">
-                <form className="contactForm" ref={form} >
+                {/* <form className="contactForm" ref={form} > */}
                 <h1>Contact me</h1>
                 {/* <span>Please fill out the form below to discuss any work opportunity with me and if you have any questions leave message in the box bellows and let me know what you want. Thank You!</span>
                     <input type="text" className="name" placeholder="enter full name..." name="your_name" required/>
@@ -40,7 +40,7 @@ const Contact =()=>{
                     <textarea className="msg" name="message" placeholder="leave your message/comment/question/anything you want here..." rows="5"  required/>
                     <button type="submit" value="send" className="submitBtn">Send</button>
                      */}
-                </form>
+                {/* </form> */}
                 </div>
 
                 <div className="links">

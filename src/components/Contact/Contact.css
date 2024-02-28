@@ -1,19 +1,18 @@
 #contactPage {
-    min-height: calc(100vh-4rem);
     width: 100vh;
     max-width: 60rem;
     text-align: center;
     justify-content: center;
 }
 
-.contactPageTitle {
+/* .contactPageTitle {
     font-size: 2rem;
     margin-bottom: 1rem;
 
-}
+} */
 
 
-.contactForm {
+/* .contactForm {
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -21,7 +20,7 @@
     justify-content: center;
     width: 90vw;
     max-width: 60rem;
-}
+} */
 /* 
 .contactDescr {
     padding: 1rem;
