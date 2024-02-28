@@ -10,7 +10,7 @@ import linkedin from '../../img/linkedin.png'
 
 const Contact =()=>{
     
-    const form = useRef();
+    // const form = useRef();
     // const sendEmail = (e) => {
     //     e.preventDefault();
     
@@ -42,26 +42,22 @@ const Contact =()=>{
                      */}
                 {/* </form> */}
                 </div>
-
+                <br />
                 <div className="links">
                 <a href="https://www.facebook.com/GadisaTesfu">
-                    <img src={facebook} alt="facebook" className="link" />
+                    <img src={facebook} alt="facebook" title="Gadisa's FaceBook Page" className="link" />
                 </a>
                 <a href="https://twitter.com/AbeeTesfu14524">
-                    <img src={twitter} alt="twitter" className="link" />
+                    <img src={twitter} alt="twitter" title="Gadisa's Twitter Page" className="link" />
                 </a>
-                <a href="https://www.whatsapp.com">
-                    <img src={whatsapp} alt="whatsapp" className="link" />
-                </a>
-                
                 <a href="https://t.me/gadisa_tesfu">
-                    <img src={telegram} alt="telegram" className="link" />
+                    <img src={telegram} alt="telegram" title="Gadisa's Telegram Channel" className="link" />
                 </a>
                 <a href="https://github.com/GadisaT">
-                    <img src={github} alt="instagram" className="link" />
+                    <img src={github} alt="github" title="Gadisa's Github Page" className="link" />
                 </a>
                 <a href="https://linkedin.com/in/gadisat">
-                    <img src={linkedin} alt="linkdin" className="link" />
+                    <img src={linkedin} alt="linkdin" title="Gadisa's LinkedIn Page" className="link" />
                 </a>
             </div>
 
