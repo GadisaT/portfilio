@@ -17,9 +17,3 @@ body {
     overflow: hidden;
     overflow-y: scroll;
 }
-
-@media screen and (max-width:585px) {
-    .body {
-        height: 35rem;
-    }
-}
