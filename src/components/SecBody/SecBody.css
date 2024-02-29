@@ -30,7 +30,7 @@
 }
 
 .secBodyImg{
-    object-fit: cover;
+    object-fit: contain;
     height: 12rem;
     margin: 1rem;
     border-radius: 2rem;
@@ -76,7 +76,7 @@
  
   
 
-  @media screen and (max-width: 585px) {
+  @media screen and (max-width: 480px) {
     .secBodyImg {
       height: 13rem;
       margin-left: 2rem;
