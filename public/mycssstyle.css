@@ -11,28 +11,16 @@
 
 }
 
-body {
+/* body {
     background: rgb(7, 7, 7);
     color: whitesmoke;
     overflow: hidden;
     overflow-y: scroll;
-}
+} */
 
-@media screen and (max-width: 480px) {
-    body {
-      width: 100%;
-    }
-    #root{
-        width: 90%;
-    }
-  }
-
-  @media screen and (max-width: 720px) {
-    body {
-      width: 100%;
-      
-    }
-    #root{
-        width: 90%;
-    }
+body {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
   }
