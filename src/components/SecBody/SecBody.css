@@ -92,3 +92,17 @@
       font-size: 0.8rem; /* Adjust font size for even smaller screens */
     }
   }
+
+  /* ... (Your existing CSS code) ... */
+
+@media (max-width: 480px) { /* Adjust breakpoint as needed */
+  #secBody {
+    padding-left: 0.5rem; /* Reduce or remove left padding */
+    margin-left: 0.5rem;  /* Reduce or remove left margin */
+  }
+
+  .secBodyImgs {
+    padding-left: 0.5rem; /* Reduce or remove left padding */
+    margin-left: 0.5rem;  /* Reduce or remove left margin */
+  }
+}
