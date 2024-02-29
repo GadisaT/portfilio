@@ -1,7 +1,7 @@
 .navbar {
     background:repeating-radial-gradient(red,green,black);
     height:5rem;
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -96,25 +96,6 @@
     }
     .menuBtn{
         display: none;
-    }
-    .navbar {
-        width: 100%;
-    }
-    
-}
-
-@media screen and (max-width:480px) {
-    .mobmenu {
-        display: flex;
-    }
-    .menu {
-        display: none;
-    }
-    .menuBtn{
-        display: none;
-    }
-    .navbar {
-        width: 100%;
     }
     
 }
