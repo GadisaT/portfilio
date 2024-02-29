@@ -46,8 +46,9 @@
 }
 
 @media screen and (max-width:585px) {
-    .secBodyImg {
+    .secBodyImgs {
         height: 35rem;
+        width: fit-content;
     }
 
     
