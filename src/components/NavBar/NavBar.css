@@ -97,5 +97,24 @@
     .menuBtn{
         display: none;
     }
+    .navbar {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .mobmenu {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .menuBtn{
+        display: none;
+    }
+    .navbar {
+        width: 100%;
+    }
     
 }
