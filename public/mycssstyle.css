@@ -12,7 +12,7 @@
 }
 
 body {
-    background: rgb(7, 7, 7);
+    background: black;
     color: whitesmoke;
     overflow: hidden;
     overflow-y: scroll;
