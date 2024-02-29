@@ -8,8 +8,8 @@ const MyBody =()=>{
     return(
         <section id="mybody">
            
-           <span className="bodyTitle">What I Do</span>
-           <span className="bodyDescr">I'm skilled the following list</span>
+           <span className="bodyTitle">What Gadisa Highly Expert at!</span>
+           <span className="bodyDescr">I'm strongly passionated at the following area of web development if you are on the same way let you connect me. Thank You</span>
            <div className="bodyBars">
             {/* <div className="bodyBar">
                <img src={UIDesign} alt="UIDesign" className="bodyBarImg"></img>
