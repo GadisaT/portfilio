@@ -50,7 +50,9 @@
         height: 35rem;
         width: fit-content;
     }
-
+    .secBodyImgs {
+      height: 30rem;
+  }
     
 }
 .fullscreenImageContainer {
