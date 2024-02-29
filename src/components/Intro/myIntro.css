@@ -29,7 +29,7 @@
         opacity: 1;
     }
     100% {
-        transform: scale(1.5);
+        transform: scale(1);
         opacity: 1;
     }
 }
@@ -99,11 +99,8 @@
 }
 
 @media screen and (max-width:840px){
-    #intro {
-        width: max-content;
-    }
     .bg{
-        right: -15vw;
+        right: -10vw;
     }
     .introContent{
         font-size: 10vw;
@@ -125,9 +122,6 @@
     }
     .introText {
         font-size: 7.5vw;
-    }
-    #intro {
-        width: max-content;
     }
     
     

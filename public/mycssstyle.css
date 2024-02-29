@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,4 +16,53 @@ body {
     color: whitesmoke;
     overflow: hidden;
     overflow-y: scroll;
-}
+} */
+
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Proxima Nova", sans-serif; /* Include a fallback font */
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Body styles */
+  body {
+    background: black;
+    color: whitesmoke;
+    overflow-x: hidden; /* Hide horizontal overflow on all devices */
+    overflow-y: auto; /* Enable vertical scrolling for all devices */
+  }
+  
+  /* Media Queries for small and medium devices (up to 768px) */
+  @media (max-width: 768px) {
+    /* Adjust font sizes for improved readability */
+    body {
+      font-size: 16px; /* Change this value to your preference */
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    /* Adjust content width for better layout */
+    .container {
+      width: 90%; /* Adjust as needed based on your layout */
+      margin: 0 auto; /* Center content horizontally */
+    }
+  
+    /* Adjust image sizes or use responsive image techniques */
+    img {
+      width: 100%; /* Make images adaptive on smaller screens */
+    }
+  }
+  
+  
