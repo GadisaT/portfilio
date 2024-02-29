@@ -44,19 +44,6 @@
     background: white;
     font-size: 1.3rem;
 }
-
-@media screen and (max-width:585px) {
-    .secBodyImgs {
-        height: 35rem;
-    }
-    .secBodyImg {
-      height: 30rem;
-  }
-  .secBody {
-    height: 40rem;
-  }
-    
-}
 .fullscreenImageContainer {
     position: fixed;
     top: 0;
@@ -86,19 +73,8 @@
     font-size: 2rem;
     cursor: pointer;
   }
-  .secBodyVideo {
-    object-fit: cover;
-    height: 12rem;
-    margin: 1rem;
-    width: 20rem;
-    border-radius: 2rem;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
+ 
   
-  .secBodyVideo:hover {
-    transform: scale(1.1);
-  }
 
   @media screen and (max-width: 585px) {
     .secBodyImg {
