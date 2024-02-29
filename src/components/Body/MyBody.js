@@ -9,8 +9,7 @@ const MyBody =()=>{
         <section id="mybody">
            
            <span className="bodyTitle">What Gadisa Highly Expert at!</span>
-           <span className="bodyDescr">I'm strongly passionated at the following area of web development if you are on the same way let you connect me.<i class="fas fa-caret-down" style="color: #f00"></i>
-</span>
+           <span className="bodyDescr">I'm strongly passionated at the following area of web development if you are on the same way let you connect me.<span style={"color:red"}>▽</span></span>
            <div className="bodyBars">
             {/* <div className="bodyBar">
                <img src={UIDesign} alt="UIDesign" className="bodyBarImg"></img>
