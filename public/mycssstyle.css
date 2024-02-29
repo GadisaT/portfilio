@@ -18,17 +18,33 @@ body {
     overflow-y: scroll;
 }
 /* CSS for small and medium mobile devices */
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     /* Adjust the styles as per your requirements */
     
     /* Example: Set the font size for body to 14px */
     body {
       font-size: 14px;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+      padding: 1rem;
     }
     
     /* Example: Center align the text in the root element */
     #root {
       text-align: center;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+      padding: 1rem;
     }
     
     /* Example: Adjust the layout or hide certain elements for small and medium mobile devices */
@@ -36,19 +52,68 @@ body {
   }
   
   /* Additional CSS for medium mobile devices */
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  @media screen and (min-width: 768px) and (max-width: 991px) {
     /* Adjust the styles as per your requirements */
     
     /* Example: Set the font size for body to 16px */
     body {
       font-size: 16px;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+      padding: 1rem;
     }
     
     /* Example: Increase the padding of the root element */
     #root {
-      padding: 20px;
+      padding: 20px; 
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+      padding: 1rem;
     }
     
     /* Example: Adjust the layout or hide certain elements for medium mobile devices */
+    /* Add your specific CSS rules here */
+  }
+
+  @media screen and (max-width: 480px) {
+    /* Adjust the styles as per your requirements */
+    
+    /* Example: Set the font size for body to 14px */
+    body {
+      font-size: 14px;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+      padding: 1rem;
+    }
+    
+    /* Example: Center align the text in the root element */
+    #root {
+      text-align: center;
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+      padding: 1rem;
+    }
+    
+    /* Example: Adjust the layout or hide certain elements for small and medium mobile devices */
     /* Add your specific CSS rules here */
   }
