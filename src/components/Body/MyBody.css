@@ -8,13 +8,13 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    font-family:Garamond;
 }
 .bodyTitle {
     font-size: 2rem;
     font-weight: 600;
     padding-left: 3rem;
     margin-bottom: 3rem;
-    font-family: "Nyala";
     color: rgb(7, 182, 252);
 
 }
