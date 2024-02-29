@@ -1,57 +1,25 @@
-/* Common styles */
-body {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
     font-family: "Proxima Nova";
     font-weight: 400;
     font-style: normal;
-  }
-  
-  /* CSS for small and medium mobile devices */
-  @media screen and (max-width: 767px) {
+
+
+}
+
+body {
+    background: rgb(7, 7, 7);
+    color: whitesmoke;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 585px) {
     body {
-      font-size: 14px;
-      padding: 1rem;
+      width: 20px;
     }
-  
-    #root {
-      text-align: center;
-      padding: 1rem;
-      width: 100%;
-    }
-  
-    /* Additional styles for small and medium mobile devices */
-    /* Add your specific CSS rules here */
-  }
-  
-  /* Additional CSS for medium mobile devices */
-  @media screen and (min-width: 768px) and (max-width: 991px) {
-    body {
-      font-size: 16px;
-      padding: 1.5rem;
-    }
-  
-    #root {
-      padding: 2rem;
-      width: 80%;
-      margin: 0 auto;
-    }
-  
-    /* Additional styles for medium mobile devices */
-    /* Add your specific CSS rules here */
-  }
-  
-  /* Additional CSS for smaller mobile devices */
-  @media screen and (max-width: 480px) {
-    body {
-      font-size: 14px;
-      padding: 1rem;
-    }
-  
-    #root {
-      text-align: center;
-      padding: 1rem;
-      width: 100%;
-    }
-  
-    /* Additional styles for smaller mobile devices */
-    /* Add your specific CSS rules here */
   }
