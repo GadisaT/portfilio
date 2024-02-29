@@ -16,4 +16,5 @@ body {
     color: whitesmoke;
     overflow: hidden;
     overflow-y: scroll;
+    overflow-x: auto;
 }
