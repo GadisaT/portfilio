@@ -4,7 +4,7 @@ import MyBody from "./components/Body/MyBody"
 import SecBody from "./components/SecBody/SecBody";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
   
   return (
