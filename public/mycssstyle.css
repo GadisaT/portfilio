@@ -1,76 +1,57 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    background: transparent;
+/* Common styles */
+body {
     font-family: "Proxima Nova";
     font-weight: 400;
     font-style: normal;
   }
   
-  body {
-    background: rgb(7, 7, 7);
-    color: whitesmoke;
-    overflow: hidden;
-    overflow-y: scroll;
-  }
-  
   /* CSS for small and medium mobile devices */
   @media screen and (max-width: 767px) {
-    /* Adjust the styles as per your requirements */
-    
-    /* Example: Set the font size for body to 14px */
     body {
       font-size: 14px;
       padding: 1rem;
     }
-    
-    /* Example: Center align the text in the root element */
+  
     #root {
       text-align: center;
       padding: 1rem;
+      width: 100%;
     }
-    
-    /* Example: Adjust the layout or hide certain elements for small and medium mobile devices */
+  
+    /* Additional styles for small and medium mobile devices */
     /* Add your specific CSS rules here */
   }
   
   /* Additional CSS for medium mobile devices */
   @media screen and (min-width: 768px) and (max-width: 991px) {
-    /* Adjust the styles as per your requirements */
-    
-    /* Example: Set the font size for body to 16px */
     body {
       font-size: 16px;
       padding: 1.5rem;
     }
-    
-    /* Example: Increase the padding of the root element */
+  
     #root {
       padding: 2rem;
+      width: 80%;
+      margin: 0 auto;
     }
-    
-    /* Example: Adjust the layout or hide certain elements for medium mobile devices */
+  
+    /* Additional styles for medium mobile devices */
     /* Add your specific CSS rules here */
   }
   
   /* Additional CSS for smaller mobile devices */
   @media screen and (max-width: 480px) {
-    /* Adjust the styles as per your requirements */
-    
-    /* Example: Set the font size for body to 14px */
     body {
       font-size: 14px;
       padding: 1rem;
     }
-    
-    /* Example: Center align the text in the root element */
+  
     #root {
       text-align: center;
       padding: 1rem;
+      width: 100%;
     }
-    
-    /* Example: Adjust the layout or hide certain elements for smaller mobile devices */
+  
+    /* Additional styles for smaller mobile devices */
     /* Add your specific CSS rules here */
   }
