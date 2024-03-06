@@ -50,6 +50,9 @@
     .secBodyImg {
         height: 35rem;
     }
+    #secBody{
+      margin-left: 0;
+    }
 
     
 }
@@ -96,8 +99,13 @@
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 585px) {
+  @media screen and (max-width: 480px) {
     .secBodyImg {
       height: 13rem;
+    }
+    .fullscreenImageContainer{ 
+    width: 90%;
+    height: 90%;
+
     }
   }
