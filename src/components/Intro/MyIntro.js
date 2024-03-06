@@ -29,7 +29,7 @@ const MyIntro = () => {
                 <span>a {' '} </span>
                 <span style={{color:'green', fontSize:'32px'}} className="intro">
                  <Typewriter
-                    words={['Full Stack Web Designer', 'Front-end Developer', 'Backend Developer', 'React Developer']}
+                    words={['Full Stack Developer', 'Front-end Developer', 'Backend Developer', 'React Developer']}
                     loop={Infinity}
                     cursor
                     cursorStyle='|'
