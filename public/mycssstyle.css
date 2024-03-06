@@ -14,6 +14,6 @@
 body {
     background: rgb(7, 7, 7);
     color: whitesmoke;
-    overflow: hidden;
+    /* overflow: hidden; */
     overflow-y: scroll;
 }
