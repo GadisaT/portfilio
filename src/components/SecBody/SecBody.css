@@ -1,7 +1,6 @@
 #secBody {
     margin: 0 auto;
     min-width: calc(100vh-4rem);
-    margin-left: 0;
     width: 100vw;
     max-width: 60rem;
     display: flex;
@@ -23,8 +22,8 @@
 }
 .secBodyImgs {
     display: flex;
-    /* align-items: left;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
     max-width: 65rem;
@@ -49,9 +48,6 @@
 @media screen and (max-width:585px) {
     .secBodyImg {
         height: 35rem;
-    }
-    #secBody{
-      margin-left: 0;
     }
 
     
@@ -99,13 +95,8 @@
     transform: scale(1.1);
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 585px) {
     .secBodyImg {
       height: 13rem;
-    }
-    .fullscreenImageContainer{ 
-    width: 90%;
-    height: 90%;
-
     }
   }
