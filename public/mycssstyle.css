@@ -16,6 +16,7 @@ body {
     color: whitesmoke;
     overflow: hidden;
     overflow-y: scroll;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
