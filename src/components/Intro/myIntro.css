@@ -58,7 +58,7 @@
 }
 .introName {
     display: inline-block;
-    animation: typing 3s infinite;
+    animation: typing 5s infinite;
   }
   
   @keyframes typing {
@@ -139,6 +139,9 @@
     max-height: 100%; /* Limit the image height to prevent overflow */
   }
   
+  .intro .Typewriter__cursor {
+    color: red;
+  }
   
 
 
