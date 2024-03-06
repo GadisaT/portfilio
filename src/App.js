@@ -7,9 +7,15 @@ import Footer from "./components/Footer/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/react"
             
 function App() {
-  
+  const appStyles = {
+    backgroundColor: 'rgb(7, 7, 7)',
+    color: 'whitesmoke',
+    overflow: 'hidden',
+    overflowY: 'scroll'
+  };
+
   return (
-    <div className="App">
+    <div className="App" style={appStyles}>
       
       <NavBar />
       
