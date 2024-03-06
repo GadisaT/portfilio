@@ -1,6 +1,7 @@
 #secBody {
     margin: 0 auto;
     min-width: calc(100vh-4rem);
+    margin-left: 0;
     width: 100vw;
     max-width: 60rem;
     display: flex;
