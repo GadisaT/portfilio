@@ -14,19 +14,6 @@
 body {
     background: rgb(7, 7, 7);
     color: whitesmoke;
-    /* overflow: hidden;
-    overflow-y: scroll; */
-    width: 100%;
+    overflow: auto;
+    overflow-y: scroll;
 }
-
-@media screen and (max-width: 768px) {
-    body {
-      overflow: auto;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
-    body {
-      overflow: auto;
-    }
-  }
