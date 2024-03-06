@@ -12,9 +12,20 @@
 }
 
 body {
-    background: rgb(44, 218, 0);
+    background: rgb(7, 7, 7);
     color: whitesmoke;
-    /* overflow: hidden; */
-    /* overflow-y: scroll; */
-    object-fit: contain;
+    overflow: hidden;
+    overflow-y: scroll;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+      overflow: auto;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      overflow: auto;
+    }
+  }
