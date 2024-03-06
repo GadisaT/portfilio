@@ -41,7 +41,7 @@ const MyIntro = () => {
                 />
                 </span>
             </span>
-                <p className="introPara">A passionate front-end and back-end web designer dedicated to creating visually stunning and user-friendly websites. With 2 years of experience in the industry, I specialize in HTML, CSS, JavaScript, React Js,Django FrameWork,Python and responsive design. Let's bring your web design vision to life together!</p>
+                <p className="introPara">A passionate front-end and back-end web designer dedicated to creating visually stunning and user-friendly websites. With 2 years of experience in the industry, I specialize in HTML, CSS, JavaScript, React Js,Django FrameWork,Python and PHP. Let's bring your web design vision to life together!</p>
                 {/* <Link to="hire" smooth={true} duration={1000}><button className="btn"><img src={btnImg} alt="Hire ME" className="btnImg"></img>Hire Me</button></Link> */}
                 <div className="image-container">
                 <img src={gadis} alt="My Profile" className="bg"/>
