@@ -23,8 +23,8 @@
 }
 .secBodyImgs {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: left;
+    justify-content: center; */
     flex-wrap: wrap;
     width: 100vw;
     max-width: 65rem;
